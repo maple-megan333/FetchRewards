@@ -6,6 +6,17 @@ to activate your virtual enviornment in your terminal go to the newfetch\fetch
 and activate the fetch virtual enviornment with any of the following methods. 
 https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html
 
+Once active make sure to install some important stuff by typing these in your command prompt:
+pip install flask
+pip install sqlalchemy
+pip install flask_sqlalchemy
+pip install datetime
+pip install flask_wtf
+pip install wtfforms
+
+some of these are extra but good to have if we want to make our application work on the front end!
+
+
 To work with this application go to:
 https://web.postman.co/
 login or sign in. 
